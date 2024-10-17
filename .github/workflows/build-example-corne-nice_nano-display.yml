@@ -11,5 +11,5 @@ jobs:
       board: '["nice_nano_v2"]'
       shield: '["corne_left","corne_right"]'
       kconfig: '["CONFIG_ZMK_DISPLAY=y\nCONFIG_ZMK_MOUSE=y"]'
-      nav: '["v1"]'
+      nav: '["vi"]'
       clipboard: '["mac"]' 
