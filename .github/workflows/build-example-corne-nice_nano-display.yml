@@ -14,5 +14,4 @@ jobs:
       nav: '["vi"]'
       alphas: '["qwerty"]'
       clipboard: '["mac"]'
-      custom_config: '["#define MIRYOKU_KLUDGE_MOUSEKEYSPR"]'
       branches: '["petejohanson/zmk/feat/pointers-move-scroll"]'
