@@ -15,4 +15,4 @@ jobs:
       alphas: '["qwerty"]'
       clipboard: '["mac"]'
       custom_config: '["#define MIRYOKU_KLUDGE_MOUSEKEYSPR"]'
-      branches: '["petejohanson/zmk/feat/pointers-move-scroll","zmkfirmware/zmk/main petejohanson/zmk/feat/pointers-move-scroll"]'
+      branches: '["petejohanson/zmk/feat/pointers-move-scroll"]'
