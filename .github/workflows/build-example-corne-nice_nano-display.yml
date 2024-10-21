@@ -2,7 +2,10 @@
 # https://github.com/manna-harbour/miryoku
 
 name: 'Build Example corne nice_nano display'
-on: workflow_dispatch
+on:
+  push: master
+  pull_request:
+  workflow_dispatch:
 jobs:
   build:
     uses: ./.github/workflows/main.yml
