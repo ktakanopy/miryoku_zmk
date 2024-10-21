@@ -8,11 +8,33 @@
      K20, K21, K22, K23, K24,      K25, K26, K27, K28, K29, \
      N30, N31, K32, K33, K34,      K35, K36, K37, N38, N39 \
 ) \
-&kp LSHFT  K00  K01  K02  K03  K04       K05  K06  K07  K08  K09  XXX \
+&kp LCTRL  K00  K01  K02  K03  K04       K05  K06  K07  K08  K09  RCTRL \
 &kp LGUI K10  K11  K12  K13  K14      K15  K16  K17  K18  K19  &kp LALT \
-&kp LCTRL K20  K21  K22  K23  K24      K25  K26  K27  K28  K29  &kp APOSTROPHE \
+&kp LSHFT K20  K21  K22  K23  K24      K25  K26  K27  K28  K29  &kp RSHFT \
                     K32  K33  K34       K35  K36  K37
 
+// Define macro for tilde and space
+#define MACRO_TILDE_SPACE &macro_tilde_space
+
+// Macro behavior definition
+#define CUSTOM_BEHAVIORS \
+    &macro_tilde_space { \
+        compatible = "zmk,behavior-macro"; \
+        bindings = <&kp LS(GRAVE)>, <&kp SPACE>; \
+    };
+
+#define MIRYOKU_LAYOUTMAPPING_SYM( \
+     K00, K01, K02, K03, K04,      K05, K06, K07, K08, K09, \
+     K10, K11, K12, K13, K14,      K15, K16, K17, K18, K19, \
+     K20, K21, K22, K23, K24,      K25, K26, K27, K28, K29, \
+     N30, N31, K32, K33, K34,      K35, K36, K37, N38, N39 \
+) \
+&kp LCTRL  MACRO_TILDE_SPACE  K01  K02  LEFT_BRACE  K04       K05  K06  K07  K08  K09  RCTRL \
+&kp LGUI K10  K11  K12  K13  K14      K15  K16  K17  K18  K19  &kp LALT \
+&kp LSHFT K20  K21  K22  K23  K24      K25  K26  K27  K28  K29  &kp RSHFT \
+                    K32  K33  K34       K35  K36  K37
+
+// Combo definitions
 #define MIRYOKU_KLUDGE_TOPROWCOMBOS_LEFTPINKIE 2 3
 #define MIRYOKU_KLUDGE_TOPROWCOMBOS_LEFTINNERINDEX 3 4
 #define MIRYOKU_KLUDGE_TOPROWCOMBOS_RIGHTINNERINDEX 7 8
