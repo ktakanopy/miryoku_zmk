@@ -28,6 +28,12 @@
 MIRYOKU_LAYER_LIST
 #undef MIRYOKU_X
   };
+
+  // Macro definition
+  macro_tilde_space {
+    compatible = "zmk,behavior-macro";
+    bindings = <&kp LS(GRAVE)>, <&kp SPACE>;
+  };
 };
 
 #include "miryoku_shift_functions.dtsi"
