@@ -3,9 +3,11 @@
 
 name: 'Build Example corne nice_nano display'
 on:
-  push: master
-  pull_request:
-  workflow_dispatch:
+  push:
+    branches:
+      - master
+
+
 jobs:
   build:
     uses: ./.github/workflows/main.yml
