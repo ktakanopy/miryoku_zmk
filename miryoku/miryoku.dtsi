@@ -18,12 +18,6 @@
 #include <dt-bindings/zmk/mouse.h>
 
 / {
-  // Macro definition
-  macro_tilde_space {
-    compatible = "zmk,behavior-macro";
-    bindings = <&kp LS(GRAVE)>, <&kp SPACE>;
-  };
-
   keymap {
     compatible = "zmk,keymap";
 #define MIRYOKU_X(LAYER, STRING) \
@@ -34,8 +28,6 @@
 MIRYOKU_LAYER_LIST
 #undef MIRYOKU_X
   };
-
-
 };
 
 #include "miryoku_shift_functions.dtsi"
