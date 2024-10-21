@@ -17,6 +17,9 @@
 
 #include <dt-bindings/zmk/mouse.h>
 
+U_MACRO(tilde_macro, wait-ms = <0>; bindings =  <&kp LS(GRAVE)>, <&kp SPACE>;)
+
+
 / {
   keymap {
     compatible = "zmk,keymap";
