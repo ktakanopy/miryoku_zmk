@@ -2,7 +2,7 @@
 
 #define MIRYOKU_CLIPBOARD_MAC
 #define MIRYOKU_KLUDGE_MOUSEKEYSPR
-#define MIRYOKU_LAYOUTMAPPING_CORNE( \
+#define MIRYOKU_LAYOUTMAPPING_BASE( \
      K00, K01, K02, K03, K04,      K05, K06, K07, K08, K09, \
      K10, K11, K12, K13, K14,      K15, K16, K17, K18, K19, \
      K20, K21, K22, K23, K24,      K25, K26, K27, K28, K29, \
@@ -37,7 +37,7 @@ U_NP,              U_NP,              &kp LGUI, U_LT(U_NAV, SPACE),   U_LT(U_MOU
 &kp EXCL,          &kp AT,           &kp HASH,         &kp DLLR,          &kp PRCNT,          U_NA,              &u_to_U_BASE,      &u_to_U_EXTRA,     &u_to_U_TAP,       U_BOOT,            \
 &kp LBRC,         &kp RBRC,         &kp LPAR,         &kp RPAR,         &kp CARET,          &kp BACKSLASH,              &kp LSHFT,         &kp LCTRL,         &kp LALT,          &kp LGUI,          \
 &kp QMARK,        &kp AMPS,         &kp LBKT,          &kp RBKT,         &kp PIPE,          &kp SEMI,              &u_to_U_SYM,       &u_to_U_MOUSE,     &kp RALT,          U_NA,              \
-U_NP,              U_NP,             &kp &g_under,     &kp COLON,          &kp UNDER,         U_NA,              U_NA,              U_NA,              U_NP,              U_NP
+U_NP,              U_NP,             &g_under,     &kp COLON,          &kp UNDER,         U_NA,              U_NA,              U_NA,              U_NP,              U_NP
 
 #define MIRYOKU_LAYER_NUM \
 &kp N1,            &kp N2,            &kp N3,            &kp N4,              &kp N5,         &kp N6,            &kp N7,            &kp N8,             &kp N9,           &kp N0,            \
