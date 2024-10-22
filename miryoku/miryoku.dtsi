@@ -18,7 +18,7 @@
 #include <dt-bindings/zmk/mouse.h>
 
 U_MACRO(tilde_macro, wait-ms = <0>; bindings =  <&kp LS(GRAVE)>, <&kp SPACE>;)
-
+U_MACRO(g_under, wait-ms = <0>; bindings =  <&kp G>, <&kp UNDER>;)
 
 / {
   keymap {
