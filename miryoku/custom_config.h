@@ -1,4 +1,4 @@
- #define MIRYOKU_NAV_VI
+#define MIRYOKU_NAV_VI
 
 #define MIRYOKU_CLIPBOARD_MAC
 #define MIRYOKU_KLUDGE_MOUSEKEYSPR
@@ -42,8 +42,8 @@ U_NP,              U_NP,             &kp &g_under,     &kp COLON,          &kp U
 #define MIRYOKU_LAYER_NUM \
 &kp N1,            &kp N2,            &kp N3,            &kp N4,              &kp N5,         &kp N6,            &kp N7,            &kp N8,             &kp N9,           &kp N0,            \
 &kp N4,            &kp N5,            &kp N6,            &kp MINUS,            &kp PLUS,      U_NA,              &kp LSHFT,         &kp LCTRL,         &kp LALT,          &kp LGUI,          \
-&kp N7,            &kp N8,            &kp N9,            &kp N0,             &kp ASTRK,       U_NA,              &u_to_U_NUM,       &u_to_U_NAV,       &kp RALT,          U_NA,              \
-U_NP,              U_NP,              &kp COMMA,          &kp DOT,            &kp SLASH,         U_NA,              U_NA,              U_NA,              U_NP,              U_NP
+&kp N7,            &kp N8,            &kp N9,            &kp N0,             &kp ASTRK,       &kp SLASH,              &u_to_U_NUM,       &u_to_U_NAV,       &kp RALT,          U_NA,              \
+U_NP,              U_NP,              &kp COMMA,          &kp DOT,            &kp EQUAL,         U_NA,              U_NA,              U_NA,              U_NP,              U_NP
 
 
 #define MIRYOKU_LAYER_NAV \
@@ -55,9 +55,8 @@ U_NP,              U_NP,              U_NA,              U_NA,              U_NA
 #define MIRYOKU_LAYER_MOUSE \
 U_BOOT,            &u_to_U_TAP,       &u_to_U_EXTRA,     &u_to_U_BASE,      U_NA,              U_RDO,             U_PST,             U_CPY,             U_CUT,             U_UND,             \
 &kp LGUI,          &kp LALT,          &kp LCTRL,         &kp LSHFT,         U_NA,              U_MS_L,            U_MS_D,            U_MS_U,            U_MS_R,            U_NU,              \
-U_NA,              &tilde_macro,      &g_under,          &kp LC(A),              U_NA,              U_WH_L,            U_WH_D,            U_WH_U,            U_WH_R,            U_NU,              \
+U_NA,              U_NA,              &tilde_macro,      &g_under,          &kp LC(A),               U_WH_L,            U_WH_D,            U_WH_U,            U_WH_R,            U_NU,              \
 U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              U_BTN2,            U_BTN1,            U_BTN3,            U_NP,              U_NP
-
 
 // Combo definitions
 #define MIRYOKU_KLUDGE_TOPROWCOMBOS_LEFTPINKIE 2 3
