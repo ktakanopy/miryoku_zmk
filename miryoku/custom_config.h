@@ -36,7 +36,7 @@ U_NP,              U_NP,              U_NA,              U_NA,              U_NA
 &kp N1,            &kp N2,            &kp N3,            &kp N4,              &kp N5,         &kp N6,            &kp N7,            &kp N8,             &kp N9,           &kp N0,            \
 &kp N4,            &kp N5,            &kp N6,            &kp SEMI,            &kp EQUAL,      U_NA,              &kp LSHFT,         &kp LCTRL,         &kp LALT,          &kp LGUI,          \
 &kp N7,            &kp N8,            &kp N9,            &kp GRAVE,           &kp BSLH,       U_NA,              &u_to_U_NUM,       &u_to_U_NAV,       &kp RALT,          U_NA,              \
-U_NP,              U_NP,              &kp LBKT,          &kp RBKT,            &kp N0,         U_NA,              U_NA,              U_NA,              U_NP,              U_NP
+U_NP,              U_NP,              &kp LBKT,          &kp RBKT,            &kp MINUS,         U_NA,              U_NA,              U_NA,              U_NP,              U_NP
 
 // Combo definitions
 #define MIRYOKU_KLUDGE_TOPROWCOMBOS_LEFTPINKIE 2 3
