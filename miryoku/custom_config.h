@@ -35,8 +35,8 @@ U_NP,              U_NP,              &kp LGUI, U_LT(U_NAV, SPACE),   U_LT(U_MOU
 
 #define MIRYOKU_LAYER_SYM \
 &kp EXCL,          &kp AT,           &kp HASH,         &kp DLLR,          &kp PRCNT,          U_NA,              &u_to_U_BASE,      &u_to_U_EXTRA,     &u_to_U_TAP,       U_BOOT,            \
-U_MT(LGUI, LBRC),     U_MT(LALT, RBRC),     U_MT(LCTRL, LPAR),    U_MT(LSHFT, RPAR),        &kp CARET,          &kp BACKSLASH,              &kp LSHFT,         &kp LCTRL,         &kp LALT,          &kp LGUI,          \
-&kp AMPS,         &g_under,          &kp LBKT,          &kp RBKT,         &kp PIPE,          &kp SEMI,              &u_to_U_SYM,       &u_to_U_MOUSE,     &kp RALT,          U_NA,              \
+&kp LBKT,          &kp RPAR,         &kp RPAR,         &kp RBKT,          &kp CARET,          &kp BACKSLASH,              &kp LSHFT,         &kp LCTRL,         &kp LALT,          &kp LGUI,          \
+&kp AMPS,          &kp LBRC,         &kp RBRC,         &g_under,         &kp PIPE,          &kp SEMI,              &u_to_U_SYM,       &u_to_U_MOUSE,     &kp RALT,          U_NA,              \
 U_NP,              U_NP,             &kp QMARK,        &kp COLON,          &kp UNDER,         U_NA,              U_NA,              U_NA,              U_NP,              U_NP
 
 #define MIRYOKU_LAYER_NUM \
