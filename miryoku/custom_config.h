@@ -38,9 +38,9 @@ U_NP,             U_NP,             U_LT(U_MOUSE, ESC), U_LT(U_NAV, SPACE), U_LT
 U_NP,              U_NP,             &kp QMARK,          &kp COLON,          &kp UNDER,          U_NA,               U_NA,               U_NA,               U_NP,              U_NP
 
 #define MIRYOKU_LAYER_NUM \
-&kp N0,            &kp N1,           &kp N2,             &kp N3,             &kp N4,             &kp N5,             &kp N6,             &kp N7,             &kp N8,             &kp N9,            \
-&kp MINUS,         &kp N4,           &kp N5,             &kp N6,             &kp PLUS,           &kp BACKSLASH,      &kp LSHFT,          &kp LGUI,           &kp LALT,           &kp LCTRL,           \
-&kp ASTRK,         &kp N7,           &kp N8,             &kp N9,             &kp SLASH,          &u_to_U_NUM,        &u_to_U_NAV,        &kp RALT,           U_NA,               U_NA,              \
+&kp N1,           &kp N2,             &kp N3,             &kp N4,            &kp N5,             &kp N6,             &kp N7,             &kp N8,             &kp N9,            &kp N0,            \
+&kp LCTRL,         &kp LALT,         &kp LGUI,           &kp LSHFT,            &kp BACKSLASH,      &kp MINUS,          &kp N4,           &kp N5,             &kp N6,            &kp PLUS,    \
+ &u_to_U_NUM,        &u_to_U_NAV,        &kp RALT,           U_NA,              U_NA,           &kp ASTRK,         &kp N7,           &kp N8,             &kp N9,              &kp SLASH,            \
 U_NP,              U_NP,             &kp COMMA,          &kp DOT,            &kp EQUAL,          U_NA,               U_NA,               U_NA,               U_NP,               U_NP
 
 #define MIRYOKU_LAYER_NAV \
