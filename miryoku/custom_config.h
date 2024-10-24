@@ -9,8 +9,8 @@
      K20, K21, K22, K23, K24,      K25, K26, K27, K28, K29, \
      N30, N31, K32, K33, K34,      K35, K36, K37, N38, N39 \
 ) \
-&kp TAB     K00  K01  K02  K03  K04       K05  K06  K07  K08  K09  &kp RCTRL \
-&kp GRAVE   K10  K11  K12  K13  K14       K15  K16  K17  K18  K19  &kp LALT \
+&kp GRAVE     K00  K01  K02  K03  K04       K05  K06  K07  K08  K09  &kp RCTRL \
+&kp TAB   K10  K11  K12  K13  K14       K15  K16  K17  K18  K19  &kp LALT \
 &kp LSHFT   K20  K21  K22  K23  K24       K25  K26  K27  K28  K29  &kp RSHFT \
                         K32  K33  K34     K35  K36  K37 
 
@@ -20,11 +20,11 @@
      K20, K21, K22, K23, K24,      K25, K26, K27, K28, K29, \
      N30, N31, K32, K33, K34,      K35, K36, K37, N38, N39 \
 ) \
-&tilde_macro K00  K01  K02  K03  K04      K05  K06  K07  K08  K09  &kp RCTRL \
-&kp GRAVE    K10  K11  K12  K13  K14      K15  K16  K17  K18  K19  &kp LALT \
+&kp GRAVE K00  K01  K02  K03  K04      K05  K06  K07  K08  K09  &kp RCTRL \
+&tilde_macro   K10  K11  K12  K13  K14      K15  K16  K17  K18  K19  &kp LALT \
 &kp TILDE    K20  K21  K22  K23  K24      K25  K26  K27  K28  K29  &kp RSHFT \
                         K32  K33  K34     K35  K36  K37
-
+ 
 #define MIRYOKU_LAYER_BASE \
 &kp Q,            &kp W,            &kp E,              &kp R,              &kp T,              &kp Y,              &kp U,              &kp I,              &kp O,              &kp P,             \
 U_MT(LCTRL, A),   U_MT(LALT, S),    U_MT(LGUI, D),      U_MT(LSHFT, F),     &kp G,              &kp H,              U_MT(LSHFT, J),     U_MT(LGUI, K),      U_MT(LALT, L),      U_MT(LCTRL, SQT),  \
@@ -51,7 +51,7 @@ U_NP,              U_NP,             U_NA,               U_NA,               U_N
 
 
 #define MIRYOKU_LAYER_MOUSE \
-&kp GRAVE,         &u_to_U_TAP,      &u_to_U_EXTRA,      &u_to_U_BASE,       U_NA,               U_RDO,              U_PST,              U_CPY,              U_CUT,             U_UND,             \
+U_BOOT,         &u_to_U_TAP,      &u_to_U_EXTRA,      &u_to_U_BASE,       U_NA,               U_RDO,              U_PST,              U_CPY,              U_CUT,             U_UND,             \
 &kp LCTRL,         &kp LALT,         &kp LGUI,           &kp LSHFT,          U_NA,               U_MS_L,             U_MS_D,             U_MS_U,             U_MS_R,            U_NU,              \
 U_NA,              U_NA,             &tilde_macro,       &g_under,           &kp LC(A),          U_WH_L,             U_WH_D,             U_WH_U,             U_WH_R,            U_NU,              \
 U_NP,              U_NP,             U_NA,               U_NA,               U_NA,               U_BTN2,             U_BTN1,             U_BTN3,             U_NP,              U_NP
