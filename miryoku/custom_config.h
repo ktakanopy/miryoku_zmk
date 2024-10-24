@@ -37,11 +37,11 @@ U_NP,             U_NP,             U_LT(U_MOUSE, TAB), U_LT(U_NAV, SPACE), U_LT
 &kp AMPS,          &kp LBRC,         &kp RBRC,           &g_under,           &kp PIPE,           &kp BACKSLASH,      &u_to_U_SYM,        &u_to_U_MOUSE,      &kp RALT,          U_NA,               \
 U_NP,              U_NP,             &kp QMARK,          &kp COLON,          &kp UNDER,          U_NA,               U_NA,               U_NA,               U_NP,              U_NP
 
-// #define MIRYOKU_LAYER_NUM \
-// &kp N0,            &kp N1,           &kp N2,             &kp N3,             &kp N4,             &kp N5,             &kp N6,             &kp N7,             &kp N8,             &kp N9,               \
-// &kp MINUS,         &kp N4,           &kp N5,             &kp N6,             &kp PLUS,           &kp BACKSLASH,      &kp LSHFT,          &kp LGUI,           &kp LALT,           &kp LCTRL,           \
-// &kp ASTRK,         &kp N7,           &kp N8,             &kp N9,             &kp SLASH,          &u_to_U_NUM,        &u_to_U_NAV,        &kp RALT,           U_NA,               U_NA,              \
-// U_NP,              U_NP,             &kp COMMA,          &kp DOT,            &kp EQUAL,          U_NA,               U_NA,               U_NA,               U_NP,               U_NP
+#define MIRYOKU_LAYER_NUM \
+&kp N0,            &kp N1,           &kp N2,             &kp N3,             &kp N4,             &kp N5,             &kp N6,             &kp N7,             &kp N8,             &kp N9,               \
+&kp MINUS,         &kp N4,           &kp N5,             &kp N6,             &kp PLUS,           &kp BACKSLASH,      &kp LSHFT,          &kp LGUI,           &kp LALT,           &kp LCTRL,           \
+&kp ASTRK,         &kp N7,           &kp N8,             &kp N9,             &kp SLASH,          &u_to_U_NUM,        &u_to_U_NAV,        &kp RALT,           U_NA,               U_NA,              \
+U_NP,              U_NP,             &kp COMMA,          &kp DOT,            &kp EQUAL,          U_NA,               U_NA,               U_NA,               U_NP,               U_NP
 
 // #define MIRYOKU_LAYER_NAV \
 // &kp LG(GRAVE),     &kp RET,          &kp BSCP,           U_NA,               U_NA,               U_RDO,              U_PST,              U_CPY,              U_CUT,             U_UND,             \
