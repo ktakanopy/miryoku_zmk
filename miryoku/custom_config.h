@@ -31,11 +31,11 @@ U_MT(LCTRL, A),   U_MT(LALT, S),    U_MT(LGUI, D),      U_MT(LSHFT, F),     &kp 
 U_LT(U_BUTTON, Z), U_MT(RALT, X),   U_LT(U_MEDIA, C),   &kp V,              &kp B,              &kp N,              &kp M,              &kp COMMA,          U_MT(RALT, DOT),    U_LT(U_BUTTON, SLASH),\
 U_NP,             U_NP,             U_LT(U_MOUSE, TAB), U_LT(U_NAV, SPACE), U_LT(U_BUTTON, ESC), U_LT(U_SYM, RET),   U_LT(U_NUM, BSPC),  U_LT(U_FUN, DEL),   U_NP,               U_NP
 
-// #define MIRYOKU_LAYER_SYM \
-// &kp EXCL,          &kp AT,           &kp HASH,           &kp DLLR,           &kp PRCNT,          U_NA,              &u_to_U_BASE,       &u_to_U_EXTRA,      &u_to_U_TAP,       U_BOOT,             \
-// &kp LBKT,          &kp LPAR,         &kp RPAR,           &kp RBKT,           &kp CARET,          &kp BACKSLASH,      &kp LSHFT,          &kp LGUI,           &kp LALT,          &kp LCTRL,           \
-// &kp AMPS,          &kp LBRC,         &kp RBRC,           &g_under,           &kp PIPE,           &kp BACKSLASH,      &u_to_U_SYM,        &u_to_U_MOUSE,      &kp RALT,          U_NA,               \
-// U_NP,              U_NP,             &kp QMARK,          &kp COLON,          &kp UNDER,          U_NA,               U_NA,               U_NA,               U_NP,              U_NP
+#define MIRYOKU_LAYER_SYM \
+&kp EXCL,          &kp AT,           &kp HASH,           &kp DLLR,           &kp PRCNT,          U_NA,              &u_to_U_BASE,       &u_to_U_EXTRA,      &u_to_U_TAP,       U_BOOT,             \
+&kp LBKT,          &kp LPAR,         &kp RPAR,           &kp RBKT,           &kp CARET,          &kp BACKSLASH,      &kp LSHFT,          &kp LGUI,           &kp LALT,          &kp LCTRL,           \
+&kp AMPS,          &kp LBRC,         &kp RBRC,           &g_under,           &kp PIPE,           &kp BACKSLASH,      &u_to_U_SYM,        &u_to_U_MOUSE,      &kp RALT,          U_NA,               \
+U_NP,              U_NP,             &kp QMARK,          &kp COLON,          &kp UNDER,          U_NA,               U_NA,               U_NA,               U_NP,              U_NP
 
 // #define MIRYOKU_LAYER_NUM \
 // &kp N0,            &kp N1,           &kp N2,             &kp N3,             &kp N4,             &kp N5,             &kp N6,             &kp N7,             &kp N8,             &kp N9,               \
