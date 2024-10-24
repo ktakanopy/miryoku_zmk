@@ -51,11 +51,10 @@ U_NP,              U_NP,             U_NA,               U_NA,               U_N
 
 
 #define MIRYOKU_LAYER_MOUSE \
-U_BOOT,         &u_to_U_TAP,      &u_to_U_EXTRA,      &u_to_U_BASE,       U_NA,               U_RDO,              U_PST,              U_CPY,              U_CUT,             U_UND,             \
-&kp LCTRL,         &kp LALT,         &kp LGUI,           &kp LSHFT,          U_NA,               U_MS_L,             U_MS_D,             U_MS_U,             U_MS_R,            U_NU,              \
-U_NA,              U_NA,             &tilde_macro,       &g_under,           &kp LC(A),          U_WH_L,             U_WH_D,             U_WH_U,             U_WH_R,            U_NU,              \
-U_NP,              U_NP,             U_NA,               U_NA,               U_NA,               U_BTN2,             U_BTN1,             U_BTN3,             U_NP,              U_NP
-
+&kp LG(GRAVE),         &kp LG(LBRC),     &kp LG(RBRC),       &kp LG(LBKT),     &kp LG(RBKT),        U_RDO,             U_PST,             U_CPY,             U_CUT,             U_UND,             \
+&kp LCTRL,         &kp LALT,         &kp LGUI,            &kp LSHFT,         &kp LG(TAB),                &kp LEFT,          &kp DOWN,          &kp UP,            &kp RIGHT,         &u_caps_word,      \
+U_NA,              &kp ENTER,        &kp BSPC,       U_NA,       U_NA,               &kp HOME,           &kp PG_DN,          &kp PG_UP,          &kp END,           &kp INS,           \
+U_NP,              U_NP,             U_NA,               U_NA,               U_NA,               &kp RET,            &kp BSPC,           &kp DEL,            U_NP,              U_NP
 // Combo definitions
 #define MIRYOKU_KLUDGE_TOPROWCOMBOS_LEFTPINKIE 2 3
 #define MIRYOKU_KLUDGE_TOPROWCOMBOS_LEFTINNERINDEX 3 4
