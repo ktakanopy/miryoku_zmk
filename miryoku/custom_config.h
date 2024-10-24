@@ -44,12 +44,12 @@ U_NP,              U_NP,             &kp QMARK,          &kp COLON,          &kp
 U_NP,              U_NP,             &kp COMMA,          &kp DOT,            &kp EQUAL,          U_NA,               U_NA,               U_NA,               U_NP,               U_NP
 
 #define MIRYOKU_LAYER_NAV \
-&kp LG(GRAVE),     &u_to_U_TAP,       &u_to_U_EXTRA,     &u_to_U_BASE,      U_NA,              U_RDO,             U_PST,             U_CPY,             U_CUT,             U_UND,             \
+&kp LG(GRAVE),     &kp ENTER,        &kp BSCP,      &u_to_U_BASE,      U_NA,              U_RDO,             U_PST,             U_CPY,             U_CUT,             U_UND,             \
 &kp LCTRL,          &kp LALT,          &kp LGUI,         &kp LSHFT,         U_NA,              &kp LEFT,          &kp DOWN,          &kp UP,            &kp RIGHT,         &u_caps_word,      \
 U_NA,              &kp RALT,         &kp LG(LBRC),       &kp LG(RBRC),       U_NA,               &kp HOME,           &kp PG_DN,          &kp PG_UP,          &kp END,           &kp INS,           \
 U_NP,              U_NP,             U_NA,               U_NA,               U_NA,               &kp RET,            &kp BSPC,           &kp DEL,            U_NP,              U_NP
 
-// &kp LG(GRAVE),     &kp RET,          &kp BSCP,           U_NA,               U_NA,               U_RDO,              U_PST,              U_CPY,              U_CUT,             U_UND,             \
+// &kp LG(GRAVE),     &kp LG(GRAVE),          &kp BSCP,           U_NA,               U_NA,               U_RDO,              U_PST,              U_CPY,              U_CUT,             U_UND,             \
 // &kp LCTRL,         &kp LALT,         &kp LGUI,           &kp LSHFT,          U_NA,               &kp LEFT,           &kp DOWN,           &kp UP,             &kp RIGHT,         &u_caps_word,      \
 
 // #define MIRYOKU_LAYER_MOUSE \
