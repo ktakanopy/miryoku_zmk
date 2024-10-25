@@ -9,8 +9,8 @@
      K20, K21, K22, K23, K24,      K25, K26, K27, K28, K29, \
      N30, N31, K32, K33, K34,      K35, K36, K37, N38, N39 \
 ) \
-&kp GRAVE     K00  K01  K02  K03  K04       K05  K06  K07  K08  K09  &kp RCTRL \
-&kp TAB   K10  K11  K12  K13  K14       K15  K16  K17  K18  K19  &kp LALT \
+&kp LGUI     K00  K01  K02  K03  K04       K05  K06  K07  K08  K09  &kp RCTRL \
+&kp LCTRL   K10  K11  K12  K13  K14       K15  K16  K17  K18  K19  &kp LALT \
 &kp LSHFT   K20  K21  K22  K23  K24       K25  K26  K27  K28  K29  &kp RSHFT \
                         K32  K33  K34     K35  K36  K37 
 
@@ -29,12 +29,12 @@
 &kp Q,            &kp W,            &kp E,              &kp R,              &kp T,              &kp Y,              &kp U,              &kp I,              &kp O,              &kp P,             \
 U_MT(LCTRL, A),   U_MT(LALT, S),    U_MT(LGUI, D),      U_MT(LSHFT, F),     &kp G,              &kp H,              U_MT(LSHFT, J),     U_MT(LGUI, K),      U_MT(LALT, L),      U_MT(LCTRL, SQT),  \
 U_LT(U_BUTTON, Z), U_MT(RALT, X),   U_LT(U_MEDIA, C),   &kp V,              &kp B,              &kp N,              &kp M,              &kp COMMA,          U_MT(RALT, DOT),    U_LT(U_BUTTON, SLASH),\
-U_NP,             U_NP,             U_LT(U_MOUSE, ESC), U_LT(U_NAV, SPACE), U_LT(U_BUTTON, TAB), U_LT(U_SYM, RET),   U_LT(U_NUM, BSPC),  U_LT(U_FUN, DEL),   U_NP,               U_NP
+U_NP,             U_NP,             U_LT(U_BUTTON, ESC), U_LT(U_NAV, SPACE), U_LT(U_MOUSE, TAB), U_LT(U_SYM, RET),   U_LT(U_NUM, BSPC),  U_LT(U_FUN, DEL),   U_NP,               U_NP
 
 #define MIRYOKU_LAYER_SYM \
 &u_to_U_BASE,      &u_to_U_EXTRA,    &u_to_U_TAP,        &kp SEMI,             &kp GRAVE,         &kp EXCL,            &kp AT,           &kp HASH,            &kp DLLR,           &kp PRCNT,       \
 &kp LCTRL,         &kp LALT,         &kp LGUI,           &kp LSHFT,          &tilde_macro ,      &kp LBKT,           &kp CARET,         &kp LPAR,           &kp RPAR,           &kp RBKT,                   \
-&u_to_U_SYM,       &u_to_U_MOUSE,    &kp RALT,           U_NA,               &kp TILDE,          &kp AMPS,            &kp PIPE,           &kp LBRC,           &kp RBRC,           &g_under,               \
+&u_to_U_SYM,       &u_to_U_MOUSE,    &kp RALT,           &kp SLASH,               &kp TILDE,          &kp AMPS,            &kp PIPE,           &kp LBRC,           &kp RBRC,           &g_under,               \
 U_NP,              U_NP,             &kp QMARK,          &kp COLON,          &kp UNDER,          U_NA,               U_NA,               U_NA,               U_NP,              U_NP
 
 #define MIRYOKU_LAYER_NUM \
