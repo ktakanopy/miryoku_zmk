@@ -41,7 +41,7 @@ U_NP,              U_NP,             &kp UNDER,          &kp COLON,          &kp
 &kp N1,           &kp N2,             &kp N3,             &kp N4,            &kp N5,             &kp N6,             &kp N7,             &kp N8,             &kp N9,            &kp N0,            \
 &kp LCTRL,         &kp LALT,         &kp LGUI,           &kp LSHFT,            &kp BACKSLASH,      &kp MINUS,          &kp N4,           &kp N5,             &kp N6,            &kp PLUS,    \
  &u_to_U_NUM,        &u_to_U_NAV,        &kp RALT,           U_NA,              U_NA,           &kp ASTRK,         &kp N1,           &kp N2,             &kp N3,              &kp SLASH,            \
-U_NP,              U_NP,             &kp COMMA,          &kp DOT,            &kp EQUAL,          U_NA,               U_NA,               U_NA,               U_NP,               U_NP
+U_NP,              U_NP,             &kp DOT,          &kp COMMA,            &kp EQUAL,          U_NA,               U_NA,               U_NA,               U_NP,               U_NP
 
 #define MIRYOKU_LAYER_NAV \
 &kp LG(GRAVE),         &kp LG(LBRC),     &kp LG(RBRC),       &kp LG(LBKT),     &kp LG(RBKT),        U_RDO,             U_PST,             U_CPY,             U_CUT,             U_UND,             \
