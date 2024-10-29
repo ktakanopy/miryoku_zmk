@@ -10,8 +10,8 @@
      N30, N31, K32, K33, K34,      K35, K36, K37, N38, N39 \
 ) \
 &kp LGUI     K00  K01  K02  K03  K04       K05  K06  K07  K08  K09  &kp RCTRL \
-&kp LCTRL   K10  K11  K12  K13  K14       K15  K16  K17  K18  K19  &kp LALT \
-&kp LSHFT   K20  K21  K22  K23  K24       K25  K26  K27  K28  K29  &kp RSHFT \
+&kp LSHFT   K10  K11  K12  K13  K14       K15  K16  K17  K18  K19  &kp RSHFT \
+&kp LALT   K20  K21  K22  K23  K24       K25  K26  K27  K28  K29  &kp RSHFT \
                         K32  K33  K34     K35  K36  K37 
 
 #define MIRYOKU_LAYERMAPPING_SYM( \
@@ -28,7 +28,7 @@
 #define MIRYOKU_LAYER_BASE \
 &kp Q,            &kp W,            &kp E,              &kp R,              &kp T,              &kp Y,              &kp U,              &kp I,              &kp O,              &kp P,             \
 U_MT(LCTRL, A),   U_MT(LALT, S),    U_MT(LGUI, D),      U_MT(LSHFT, F),     &kp G,              &kp H,              U_MT(LSHFT, J),     U_MT(LGUI, K),      U_MT(LALT, L),      U_MT(LCTRL, SQT),  \
-U_LT(U_BUTTON, Z), U_MT(RALT, X),   U_LT(U_MEDIA, C),   &kp V,              &kp B,              &kp N,              &kp M,              &kp COMMA,          U_MT(RALT, DOT),    U_LT(U_BUTTON, SLASH),\
+&kp Z,            &kp X,            &kp C,                &kp V,              &kp B,              &kp N,              &kp M,              &kp COMMA,        &kp DOT,            &kp SLASH,\
 U_NP,             U_NP,             U_LT(U_MOUSE, ESC), U_LT(U_NAV, SPACE), U_LT(U_BUTTON, TAB), U_LT(U_SYM, RET),   U_LT(U_NUM, BSPC),  U_LT(U_FUN, DEL),   U_NP,               U_NP
 
 #define MIRYOKU_LAYER_SYM \
@@ -45,21 +45,21 @@ U_NP,              U_NP,             &kp DOT,          &kp COMMA,            &kp
 
 #define MIRYOKU_LAYER_NAV \
 &kp LG(N1),         &kp LG(N2),     &kp LG(N3),           &kp LG(N4),         &kp LG(N5),          &kp LG(N6),          &kp LG(N7),       &kp LG(N8),           &kp LG(N9),        &kp LG(N0),\
-&kp LCTRL,         &kp LALT,         &kp LGUI,            &kp LSHFT,       &kp LA(LS(LCTRL)),          &kp LEFT,          &kp DOWN,          &kp UP,            &kp RIGHT,         &u_caps_word,      \
-&kp ENTER,        &kp BSPC,       &kp LA(LG(LS(LCTRL))),  &kp LA(LG(LSHIFT)),  &kp LG(LS(LCTRL)),   &kp HOME,           &kp PG_DN,          &kp PG_UP,          &kp END,           &kp INS,           \
+&kp LCTRL,         &kp LALT,         &kp LGUI,            &kp LSHFT,       &kp LA(LS(LCTRL)),      &kp LEFT,          &kp DOWN,          &kp UP,            &kp RIGHT,         &u_caps_word,      \
+&kp LG(LSHIFT),   &kp LG(LALT),        &kp LA(LG(LS(LCTRL))),  &kp LA(LG(LSHIFT)),  &kp LG(LS(LCTRL)),   &kp HOME,           &kp PG_DN,          &kp PG_UP,          &kp END,           &kp INS,           \
 U_NP,              U_NP,             U_NA,               U_NA,               U_NA,               &kp RET,            &kp BSPC,           &kp DEL,            U_NP,              U_NP
 
 
 #define MIRYOKU_LAYER_MOUSE \
 U_BOOT,         &u_to_U_TAP,      &u_to_U_EXTRA,      &u_to_U_BASE,       U_NA,               U_RDO,              U_PST,              U_CPY,              U_CUT,             U_UND,             \
 &kp LCTRL,         &kp LALT,         &kp LGUI,           &kp LSHFT,          U_NA,               U_MS_L,             U_MS_D,             U_MS_U,             U_MS_R,            U_NU,              \
-U_NA,              U_NA,             &tilde_macro,       &g_under,           &kp LC(A),          U_WH_L,             U_WH_D,             U_WH_U,             U_WH_R,            U_NU,              \
+&kp ENTER,        &kp BSPC,           &tilde_macro,       &g_under,           &kp LC(A),          U_WH_L,             U_WH_D,             U_WH_U,             U_WH_R,            U_NU,              \
 U_NP,              U_NP,             U_NA,               U_NA,               U_NA,               U_BTN2,             U_BTN1,             U_BTN3,             U_NP,              U_NP
 
 #define MIRYOKU_LAYER_BUTTON \
-&kp LG(GRAVE),     &kp LG(LBRC),  &kp LG(RBRC),       &kp LG(LBKT),      &kp LG(RBKT),      U_PST,             U_CPY,             U_CUT,             U_UND,       U_UND,       \
-U_UND,             U_CUT,             U_CPY,             U_PST,             U_RDO,             U_RDO,               &kp LSHFT,         &kp LCTRL,         &kp LALT,          &kp LGUI,          \
-U_UND,             &kp LG(T),          &kp LG(TAB),      &kp LG(F),         &kp LC(GRAVE),     U_RDO,             U_PST,             U_CPY,             U_CUT,             U_UND,             \
+&kp LG(GRAVE),     &kp LG(LBRC),  &kp LG(RBRC),       &kp LG(LBKT),      &kp LG(RBKT),        &kp Y,              &kp U,              &kp I,              &kp O,              &kp P,         \
+U_UND,             U_CUT,             U_CPY,             U_PST,             U_RDO,            &kp LEFT,          &kp DOWN,          &kp UP,            &kp RIGHT,         &u_caps_word,               \
+&kp LG(LSHIFT),  &kp LG(LALT),     &kp LC(LSHIFT),      &kp LC(LALT),      &kp LC(GRAVE),     &kp N,          &kp M,               &kp COMMA,            &kp DOT,            &kp SLASH,      \
 U_NP,              U_NP,              U_BTN3,            U_BTN1,            U_BTN2,            U_BTN2,            U_BTN1,            U_BTN3,            U_NP,              U_NP
 
 
