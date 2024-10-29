@@ -45,8 +45,8 @@ U_NP,              U_NP,             &kp DOT,          &kp COMMA,            &kp
 
 #define MIRYOKU_LAYER_NAV \
 &kp LG(GRAVE),         &kp LG(LBRC),     &kp LG(RBRC),       &kp LG(LBKT),     &kp LG(RBKT),        U_RDO,             U_PST,             U_CPY,             U_CUT,             U_UND,             \
-&kp LCTRL,         &kp LALT,         &kp LGUI,            &kp LSHFT,         LG(TAB),                &kp LEFT,          &kp DOWN,          &kp UP,            &kp RIGHT,         &u_caps_word,      \
-U_NA,              &kp ENTER,        &kp BSPC,       &kp LG(F),       LC(GRAVE),               &kp HOME,           &kp PG_DN,          &kp PG_UP,          &kp END,           &kp INS,           \
+&kp LCTRL,         &kp LALT,         &kp LGUI,            &kp LSHFT,         U_NA,                &kp LEFT,          &kp DOWN,          &kp UP,            &kp RIGHT,         &u_caps_word,      \
+U_NA,              &kp ENTER,        &kp BSPC,       &kp LG(W),       U_NA,               &kp HOME,           &kp PG_DN,          &kp PG_UP,          &kp END,           &kp INS,           \
 U_NP,              U_NP,             U_NA,               U_NA,               U_NA,               &kp RET,            &kp BSPC,           &kp DEL,            U_NP,              U_NP
 
 
