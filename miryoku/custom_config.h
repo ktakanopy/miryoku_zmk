@@ -62,7 +62,7 @@ U_UND,             U_CUT,             U_CPY,             U_PST,             U_RD
 &kp LG(LSHIFT),  &kp LG(LALT),     &kp LC(LSHIFT),      &kp LC(LALT),      &kp LC(GRAVE),     &kp N,          &kp M,               &kp COMMA,            &kp DOT,            &kp SLASH,      \
 U_NP,              U_NP,              U_BTN3,            U_BTN1,            U_BTN2,            U_BTN2,            U_BTN1,            U_BTN3,            U_NP,              U_NP
 
-#define MIRYOKU_ALTERNATIVES_FUN \
+#define MIRYOKU_LAYER_FUN \
 &kp F12,           &kp F7,            &kp F8,            &kp F9,            &kp PSCRN,         U_NA,              &u_to_U_BASE,      &u_to_U_EXTRA,     &u_to_U_TAP,       U_BOOT,            \
 &kp F11,           &kp F4,            &kp F5,            &kp F6,            &kp SLCK,          U_NA,              &kp LSHFT,         &kp LGUI,         &kp LALT,          &kp LCTRL,          \
 &kp F10,           &kp F1,            &kp F2,            &kp F3,            &kp PAUSE_BREAK,   U_NA,              &u_to_U_FUN,       &u_to_U_MEDIA,     &kp RALT,          U_NA,              \
