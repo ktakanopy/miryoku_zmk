@@ -28,13 +28,13 @@
 #define MIRYOKU_LAYER_BASE \
 &kp Q,            &kp W,            &kp E,              &kp R,              &kp T,              &kp Y,              &kp U,              &kp I,              &kp O,              &kp P,             \
 U_MT(LCTRL, A),   U_MT(LALT, S),    U_MT(LGUI, D),      U_MT(LSHFT, F),     &kp G,              &kp H,              U_MT(LSHFT, J),     U_MT(LGUI, K),      U_MT(LALT, L),      U_MT(LCTRL, SQT),  \
-&kp Z,            &kp X,            &kp C,                &kp V,              &kp B,              &kp N,              &kp M,              &kp COMMA,        &kp DOT,            &kp SLASH,\
+U_LT(U_MOUSE, Z),  U_LT(U_MOUSE, ESC)&kp X,            &kp C,                &kp V,              &kp B,              &kp N,              &kp M,              &kp COMMA,        &kp DOT,            &kp SLASH,\
 U_NP,             U_NP,             U_LT(U_MOUSE, ESC), U_LT(U_NAV, SPACE), U_LT(U_BUTTON, TAB), U_LT(U_SYM, RET),   U_LT(U_NUM, BSPC),  U_LT(U_FUN, DEL),   U_NP,               U_NP
 
 #define MIRYOKU_LAYER_SYM \
-&kp GRAVE,      &u_to_U_EXTRA,    &u_to_U_TAP,        &kp SEMI,             &kp GRAVE,         &kp EXCL,            &kp AT,           &kp HASH,            &kp DLLR,           &kp PRCNT,       \
-&kp LCTRL,         &kp LALT,         &kp LGUI,           &kp LSHFT,          &kp TILDE,      &kp LBKT,           &kp CARET,         &kp LPAR,           &kp RPAR,           &kp RBKT,                   \
-&u_to_U_SYM,       &u_to_U_MOUSE,    &tilde_macro,       &kp SLASH,          &kp BACKSLASH,     &kp AMPS,            &kp PIPE,           &kp LBRC,           &kp RBRC,           &g_under,               \
+&kp GRAVE,      &kp TILDE,           &kp HASH,           &kp AMPS,             &kp PIPE,         &kp CARET,            &kp AT,           &kp LBRC,           &kp RBRC,           &kp DOLLAR,       \
+&kp EXCLAMATION,   &kp UNDER,         &kp COLON,           &kp EQUAL,          &kp PERCENT,         &kp UNDER,          &kp LBKT,           &kp LPAR,           &kp RPAR,           &kp RBKT,                   \
+&tilde_macro,       &kp QMARK,       &kp ASTRK,       &kp PLUS,          &kp BACKSLASH,     &kp SLASH,            &kp MINUS,           &kp LESS_THAN,     &kp GREATER_THAN,    &kp DOUBLE_QUOTES,               \
 U_NP,              U_NP,             &kp UNDER,          &kp COLON,          &kp QMARK,          U_NA,               U_NA,               U_NA,               U_NP,              U_NP
 
 #define MIRYOKU_LAYER_NUM \
