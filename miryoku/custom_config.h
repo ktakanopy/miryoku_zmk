@@ -33,8 +33,8 @@ U_NP,             U_NP,             U_LT(U_MOUSE, ESC), U_LT(U_NAV, SPACE), U_LT
 
 #define MIRYOKU_LAYER_SYM \
 &kp GRAVE,      &kp TILDE,           &kp HASH,           &kp AMPS,             &kp PIPE,         &kp CARET,            &kp AT,           &kp LBRC,           &kp RBRC,           &kp DOLLAR,       \
-&kp EXCLAMATION,   &kp UNDER,         &kp COLON,           &kp EQUAL,          &kp PERCENT,         &kp UNDER,          &kp LBKT,           &kp LPAR,           &kp RPAR,           &kp RBKT,                   \
-&tilde_macro,       &kp QMARK,       &kp ASTRK,       &kp PLUS,          &kp BACKSLASH,     &kp SLASH,            &kp MINUS,           &kp LESS_THAN,     &kp GREATER_THAN,    &kp DOUBLE_QUOTES,               \
+&kp EXCLAMATION,   &kp UNDER,         &kp COLON,           &kp EQUAL,          &kp PERCENT,         &kp MINUS,          &kp LBKT,           &kp LPAR,           &kp RPAR,           &kp RBKT,                   \
+&tilde_macro,       &kp QMARK,       &kp ASTRK,       &kp PLUS,          &kp BACKSLASH,     &kp SLASH,            &kp SEMI,           &kp LESS_THAN,     &kp GREATER_THAN,    &kp DOUBLE_QUOTES,               \
 U_NP,              U_NP,             &kp LSHFT,          &kp LGUI,          &kp LCTRL,          U_NA,               U_NA,               U_NA,               U_NP,              U_NP
 
 #define MIRYOKU_LAYER_NUM \
