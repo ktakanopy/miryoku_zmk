@@ -32,9 +32,9 @@ U_MT(LCTRL, A),   U_MT(LALT, S),    U_MT(LGUI, D),      U_MT(LSHFT, F),     &kp 
 U_NP,             U_NP,             U_LT(U_MOUSE, ESC), U_LT(U_NAV, SPACE), U_LT(U_BUTTON, TAB), U_LT(U_SYM, RET),   U_LT(U_NUM, BSPC),  U_LT(U_FUN, DEL),   U_NP,               U_NP
 
 #define MIRYOKU_LAYER_SYM \
-&u_to_U_BASE,      &u_to_U_EXTRA,    &u_to_U_TAP,        &kp SEMI,             &kp GRAVE,         &kp EXCL,            &kp AT,           &kp HASH,            &kp DLLR,           &kp PRCNT,       \
+&kp GRAVE,      &u_to_U_EXTRA,    &u_to_U_TAP,        &kp SEMI,             &kp GRAVE,         &kp EXCL,            &kp AT,           &kp HASH,            &kp DLLR,           &kp PRCNT,       \
 &kp LCTRL,         &kp LALT,         &kp LGUI,           &kp LSHFT,          &kp TILDE,      &kp LBKT,           &kp CARET,         &kp LPAR,           &kp RPAR,           &kp RBKT,                   \
-&u_to_U_SYM,       &u_to_U_MOUSE,    &tilde_macro,       &kp SLASH,          &kp BACKSLASH,          &kp AMPS,            &kp PIPE,           &kp LBRC,           &kp RBRC,           &g_under,               \
+&u_to_U_SYM,       &u_to_U_MOUSE,    &tilde_macro,       &kp SLASH,          &kp BACKSLASH,     &kp AMPS,            &kp PIPE,           &kp LBRC,           &kp RBRC,           &g_under,               \
 U_NP,              U_NP,             &kp UNDER,          &kp COLON,          &kp QMARK,          U_NA,               U_NA,               U_NA,               U_NP,              U_NP
 
 #define MIRYOKU_LAYER_NUM \
