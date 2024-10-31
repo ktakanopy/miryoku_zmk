@@ -11,7 +11,7 @@
 ) \
 &kp LGUI     K00  K01  K02  K03  K04       K05  K06  K07  K08  K09  &kp RCTRL \
 &kp LSHFT   K10  K11  K12  K13  K14       K15  K16  K17  K18  K19  &kp RSHFT \
-U_MT(MEDIA, LALT),   K20  K21  K22  K23  K24       K25  K26  K27  K28  K29  &kp RSHFT \
+&kp LALT,   K20  K21  K22  K23  K24       K25  K26  K27  K28  K29  &kp RSHFT \
                         K32  K33  K34     K35  K36  K37 
 
 #define MIRYOKU_LAYERMAPPING_SYM( \
@@ -46,7 +46,7 @@ U_NP,              U_NP,             &kp DOT,          &kp COMMA,            &kp
 #define MIRYOKU_LAYER_NAV \
 &kp LG(N1),         &kp LG(N2),     &kp LG(N3),           &kp LG(N4),         &kp LG(N5),          &kp LG(N6),          &kp LG(N7),       &kp LG(N8),           &kp LG(N9),        &kp LG(N0),\
 &kp LCTRL,         &kp LALT,         &kp LGUI,            &kp LSHFT,       &kp LA(LS(LCTRL)),      &kp LEFT,          &kp DOWN,          &kp UP,            &kp RIGHT,         &u_caps_word,      \
-&kp LG(LSHIFT),   &kp LG(LALT),        &kp LA(LG(LS(LCTRL))),  &kp LA(LG(LSHIFT)),  &kp LG(LS(LCTRL)),   &kp HOME,           &kp PG_DN,          &kp PG_UP,          &kp END,           &kp INS,           \
+&kp LG(LSHIFT),   &kp LG(LALT),    &kp LA(LG(LS(LCTRL))),  &kp LA(LG(LSHIFT)),  &kp LG(LS(LCTRL)),   &kp HOME,    &kp END,          &kp PG_DN,          &kp PG_UP,         &kp INS,           \
 U_NP,              U_NP,             U_NA,               U_NA,               U_NA,               &kp RET,            &kp BSPC,           &kp DEL,            U_NP,              U_NP
 
 
