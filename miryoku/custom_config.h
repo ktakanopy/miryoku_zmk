@@ -46,7 +46,7 @@ U_NP,              U_NP,             &kp LSHFT,          &kp LGUI,          &kp 
 #define MIRYOKU_LAYER_NAV \
 U_BOOT,            &u_to_U_TAP,       &u_to_U_EXTRA,     &u_to_U_BASE,      U_NA,              U_RDO,             U_NP,                &kp PG_UP,               &kp PG_DN,              U_NP,        \
 &kp LCTRL,         &kp LALT,         &kp LGUI,            &kp LSHFT,       &kp LA(LS(LCTRL)),      &kp LEFT,          &kp DOWN,          &kp UP,            &kp RIGHT,         &kp SQT,      \
-&kp LG(LSHIFT),   &kp LG(LALT),    &kp LA(LG(LS(LCTRL))),  &kp LA(LG(LSHIFT)),  &kp LG(LS(LCTRL)),  &kp INS,           U_NP,           &kp HOME,            &kp END,          &kp PG_UP,                \
+&kp LG(LSHIFT),   &kp LG(LALT),    &kp LA(LG(LS(LCTRL))),  &kp LA(LG(LSHIFT)),  &kp LG(LS(LCTRL)),  &kp INS,          &kp HOME,            &kp END,            U_NP,           U_NP,               \
 U_NP,              U_NP,             U_NA,               U_NA,               U_NA,               &kp RET,            &kp BSPC,           &kp DEL,            U_NP,              U_NP
 
 
