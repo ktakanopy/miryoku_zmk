@@ -35,7 +35,7 @@ U_NP,             U_NP,             U_LT(U_MOUSE, ESC), U_LT(U_NAV, SPACE), U_LT
 &kp GRAVE,      &kp TILDE,           &kp HASH,           &kp AMPS,             &kp PIPE,         &kp CARET,            &kp AT,           &kp LBRC,           &kp RBRC,           &kp DOLLAR,       \
 &kp EXCLAMATION,   &kp UNDER,         &kp COLON,           &kp EQUAL,          &kp PERCENT,         &kp UNDER,          &kp LBKT,           &kp LPAR,           &kp RPAR,           &kp RBKT,                   \
 &tilde_macro,       &kp QMARK,       &kp ASTRK,       &kp PLUS,          &kp BACKSLASH,     &kp SLASH,            &kp MINUS,           &kp LESS_THAN,     &kp GREATER_THAN,    &kp DOUBLE_QUOTES,               \
-U_NP,              U_NP,             &kp LSHFT,          &kp LGUI,          &kp QMARK,          U_NA,               U_NA,               U_NA,               U_NP,              U_NP
+U_NP,              U_NP,             &kp LSHFT,          &kp LGUI,          &kp LCTRL,          U_NA,               U_NA,               U_NA,               U_NP,              U_NP
 
 #define MIRYOKU_LAYER_NUM \
 &kp N1,           &kp N2,             &kp N3,             &kp N4,            &kp N5,             &kp N6,             &kp N7,             &kp N8,             &kp N9,            &kp N0,            \
@@ -44,9 +44,9 @@ U_NP,              U_NP,             &kp LSHFT,          &kp LGUI,          &kp 
 U_NP,              U_NP,             &kp DOT,          &kp COMMA,            &kp EQUAL,          U_NA,               U_NA,               U_NA,               U_NP,               U_NP
 
 #define MIRYOKU_LAYER_NAV \
-U_BOOT,            &u_to_U_TAP,       &u_to_U_EXTRA,     &u_to_U_BASE,      U_NA,              U_RDO,             U_PST,             U_CPY,               U_CUT,               U_UND,       \
-&kp LCTRL,         &kp LALT,         &kp LGUI,            &kp LSHFT,       &kp LA(LS(LCTRL)),      &kp LEFT,          &kp DOWN,          &kp UP,            &kp RIGHT,         &u_caps_word,      \
-&kp LG(LSHIFT),   &kp LG(LALT),    &kp LA(LG(LS(LCTRL))),  &kp LA(LG(LSHIFT)),  &kp LG(LS(LCTRL)),   &kp HOME,    &kp END,          &kp PG_DN,          &kp PG_UP,         &kp INS,           \
+U_BOOT,            &u_to_U_TAP,       &u_to_U_EXTRA,     &u_to_U_BASE,      U_NA,              U_RDO,             U_NP,                &kp PG_UP,               &kp PG_DN,              U_NP,        \
+&kp LCTRL,         &kp LALT,         &kp LGUI,            &kp LSHFT,       &kp LA(LS(LCTRL)),      &kp LEFT,          &kp DOWN,          &kp UP,            &kp RIGHT,         &kp SQT,      \
+&kp LG(LSHIFT),   &kp LG(LALT),    &kp LA(LG(LS(LCTRL))),  &kp LA(LG(LSHIFT)),  &kp LG(LS(LCTRL)),  &kp INS,           U_NP,           &kp HOME,            &kp END,          &kp PG_UP,                \
 U_NP,              U_NP,             U_NA,               U_NA,               U_NA,               &kp RET,            &kp BSPC,           &kp DEL,            U_NP,              U_NP
 
 
